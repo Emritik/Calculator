@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" name="" id="text" class="display" readonly />
+      <div class="buttons">
+        <button onclick="onappendvalue('7')">7</button>
+        <button onclick="onappendvalue('8')">8</button>
+        <button onclick="onappendvalue('9')">9</button>
+        <button onclick="onappendvalue('3.14')">Pi</button>
+        <button onclick="onclearvalue('')">C</button><br />
+        <button onclick="onappendvalue('4')">4</button>
+        <button onclick="onappendvalue('5')">5</button>
+        <button onclick="onappendvalue('6')">6</button>
+        <button onclick="onappendvalue('*')">x</button>
+        <button onclick="onappendvalue('/')">/</button><br />
+        <button onclick="onappendvalue('1')">1</button>
+        <button onclick="onappendvalue('2')">2</button>
+        <button onclick="onappendvalue('3')">3</button>
+        <button onclick="onappendvalue('+')">+</button>
+        <button onclick="onappendvalue('-')">-</button><br />
+        <button onclick="onappendvalue('00')">00</button>
+        <button onclick="onappendvalue('0')">0</button>
+        <button onclick="onappendvalue('.')">.</button>
+        <button onclick="oncalulate()">=</button>
+        <button onclick="onappendvalue('%')">%</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
